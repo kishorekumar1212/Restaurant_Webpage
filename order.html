@@ -1,0 +1,59 @@
+<link rel="stylesheet" type="text/css" href="order_Style.css">
+<header>
+    <nav id="navbar">
+        <div class="logo"><span>Foodie</span></div>
+        <ul>
+            <li><a href="food.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="payment.html">Order</a></li>
+        </ul>
+    </nav>
+    <div id="mobile">
+        <div class="logo1"><span>Foodie</span></div>
+        <ul>
+            <li><a href="home">Home</a></li>
+            <li><a href="menu">Menu</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="payment.html">Order</a></li>
+        </ul>
+    </div>
+    </header>
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Order Page</title>
+    </head>
+    <body>
+        <h1>Order Form</h1>
+        <form action="payment.html">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+    
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone"><br>
+    
+            <label for="address">Address:</label>
+            <textarea id="address" name="address"></textarea><br>
+    
+            <label for="item">Item:</label>
+            <input type="text" id="item" name="item"><br>
+    
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity"><br>
+    
+            <label for="payment">Payment Method:</label>
+            <select id="payment" name="payment">
+                <option value="credit">Credit Card</option>
+                <option value="paypal">PayPal</option>
+                <option value="bitcoin">Bitcoin</option>
+            </select><br>
+    
+            <input type="submit" value="Place Order">
+        </form>
+    </body>
+</html>
